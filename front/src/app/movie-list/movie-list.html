@@ -1,0 +1,64 @@
+<h2>Films</h2>
+
+<div class="searchForm">
+
+  <div class="genre">
+  GENRE:<br/>
+  <input type="checkbox" #horror data-toggle="toggle"/>Horreur
+  <input type="checkbox" #western data-toggle="toggle"/>Western
+  <input type="checkbox" #mafia data-toggle="toggle"/>Mafia<br/>
+  <input type="checkbox" #fantasy data-toggle="toggle"/>Fantasy
+  <input type="checkbox" #scifi data-toggle="toggle"/>Science Fiction
+  <input type="checkbox" #historic data-toggle="toggle"/>Historique<br/>
+  <input type="checkbox" #cartoon data-toggle="toggle"/>Dessin Animé
+  <input type="checkbox" #comedy data-toggle="toggle"/>Comédie
+</div>
+
+
+<div class="status">
+  STATUS:<br/>
+  <input type="checkbox" #inDevelopment data-toggle="toggle"/>En dévelopement
+  <input type="checkbox" #inProduction data-toggle="toggle"/>En production<br/>
+  <input type="checkbox" #published data-toggle="toggle"/>Publié
+  <input type="checkbox" #cancelled data-toggle="toggle"/>Annulé
+</div>
+
+<div class="dates">
+<div>
+publié avant la date de :
+<input type="date" #publishedDateStart [value]="'1970-06-01'" class="form-control col-md-8" formControlName="date"/>
+</div>
+
+<div>
+publié après la date de :
+<input type="date" #publishedDateEnd [value]="'2025-09-01'" class="form-control col-md-8" formControlName="date"/>
+</div>
+</div>
+
+
+<button (click)="search(publishedDateStart, publishedDateEnd, [inDevelopment, inProduction, published, cancelled], [horror, western, mafia, fantasy, scifi, historic, cartoon, comedy])">search</button>
+  
+</div>
+
+
+@if (errorMessage) {
+<div class="errorMessage">
+  <p>{{ errorMessage }}</p>
+</div>
+}
+
+@if (data.length > 0) {
+<div class="content">
+  <h4>Movies:</h4>
+  <ul>
+
+    @for (item of data; track item) {
+    <li>
+      {{ item.title }}
+    </li>
+    
+    }
+    
+  </ul>
+</div>
+}
