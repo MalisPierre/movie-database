@@ -45,6 +45,7 @@ def clear_database(request, *args, **kwargs):
 
 def populate_database(request, *args, **kwargs):
     from django.core.management import call_command
+    call_command('loaddata', 'fixtures/user.json', verbosity=0)
     call_command('loaddata', 'fixtures/author.json', verbosity=0)
     call_command('loaddata', 'fixtures/spectator.json', verbosity=0)
     return redirect('/admin')

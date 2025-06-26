@@ -1,0 +1,92 @@
+[
+{
+    "model": "user.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$xGmJcecSOUAuuGLhmiJbaG$XG9QbxnkgbBF78orzTK3Spwdd+9shLE8T6uf1YZwlMI=",
+        "last_login": "2025-06-26T13:19:03.755Z",
+        "is_superuser": true,
+        "username": "user",
+        "date_joined": "2025-06-25T12:55:09.015Z",
+        "email": "",
+        "first_name": "user",
+        "last_name": "user",
+        "is_active": true,
+        "is_staff": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "user.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "robert de niro",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "roberto",
+        "date_joined": "2025-06-25T22:32:56Z",
+        "email": "roberto@gmail.com",
+        "first_name": "robert",
+        "last_name": "de niro",
+        "is_active": true,
+        "is_staff": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "user.customuser",
+    "pk": 3,
+    "fields": {
+        "password": "pierro",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "pierro",
+        "date_joined": "2025-06-25T22:34:21Z",
+        "email": "pierroIUUII@gmail.com",
+        "first_name": "pierro",
+        "last_name": "malis",
+        "is_active": true,
+        "is_staff": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "user.customuser",
+    "pk": 5,
+    "fields": {
+        "password": "ulfric",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "ulfric",
+        "date_joined": "2025-06-26T09:40:12Z",
+        "email": "ulfric@gmail.com",
+        "first_name": "ulfric",
+        "last_name": "stormcloack",
+        "is_active": true,
+        "is_staff": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "user.customuser",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$Qz73qhcBAe5kgofLqKD0Gq$4jrfToGKPYhAH52rCZUbx9PDeAfolpjK5wfg5ANRR1I=",
+        "last_login": "2025-06-26T12:26:31.109Z",
+        "is_superuser": false,
+        "username": "test2",
+        "date_joined": "2025-06-26T09:55:20.302Z",
+        "email": "test2@gmail.com",
+        "first_name": "test2",
+        "last_name": "test",
+        "is_active": true,
+        "is_staff": true,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
