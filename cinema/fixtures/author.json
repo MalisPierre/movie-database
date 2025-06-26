@@ -1,0 +1,36 @@
+[
+{
+    "model": "author.author",
+    "pk": 2,
+    "fields": {
+        "birthday": "2025-06-25"
+    }
+},
+{
+    "model": "author.authortomovie",
+    "pk": 2,
+    "fields": {
+        "author": 2,
+        "movie": 122,
+        "role": "author"
+    }
+},
+{
+    "model": "author.authortomovie",
+    "pk": 3,
+    "fields": {
+        "author": 2,
+        "movie": 126,
+        "role": "author"
+    }
+},
+{
+    "model": "author.authortomovie",
+    "pk": 4,
+    "fields": {
+        "author": 2,
+        "movie": 132,
+        "role": "lead"
+    }
+}
+]

@@ -1,0 +1,10 @@
+Django==5.2.3
+django-adminplus==0.6
+django-multiselectfield==0.1.13
+django-filter==25.1
+django-cors-headers==4.7.0
+djangorestframework==3.16.0
+djangorestframework_simplejwt==5.5.0
+psycopg2-binary==2.9.10
+Markdown==3.8.2
+requests==2.32.4

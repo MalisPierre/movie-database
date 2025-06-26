@@ -1,0 +1,68 @@
+[
+{
+    "model": "spectator.spectator",
+    "pk": 3,
+    "fields": {
+        "avatar": "avatar/Alien.jpg"
+    }
+},
+{
+    "model": "spectator.spectator",
+    "pk": 5,
+    "fields": {
+        "avatar": "avatar/star_wars.jpg"
+    }
+},
+{
+    "model": "spectator.spectator",
+    "pk": 6,
+    "fields": {
+        "avatar": ""
+    }
+},
+{
+    "model": "spectator.authorreview",
+    "pk": 1,
+    "fields": {
+        "user": 3,
+        "author": 2,
+        "note": 2
+    }
+},
+{
+    "model": "spectator.authorreview",
+    "pk": 2,
+    "fields": {
+        "user": 3,
+        "author": 2,
+        "note": 3
+    }
+},
+{
+    "model": "spectator.moviereview",
+    "pk": 1,
+    "fields": {
+        "user": 3,
+        "movie": 122,
+        "note": 2
+    }
+},
+{
+    "model": "spectator.moviereview",
+    "pk": 2,
+    "fields": {
+        "user": 6,
+        "movie": 123,
+        "note": 2
+    }
+},
+{
+    "model": "spectator.moviereview",
+    "pk": 4,
+    "fields": {
+        "user": 6,
+        "movie": 141,
+        "note": 5
+    }
+}
+]
